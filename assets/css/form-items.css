@@ -2,10 +2,6 @@
     box-sizing: border-box;
 }
 
-body {
-    padding: 1rem;
-}
-
 .contain {
     max-width: 1170px;
     margin-left: auto;
@@ -59,17 +55,13 @@ button {
     }
 }
 
-ul {
-    list-style: none;
-    padding: 0;
-}
-
 .contacts {
     background: #4b5195;
     color: #fff;
 }
 
 .form {
+    margin-top: 50px;
     background: #fff;
 }
 
