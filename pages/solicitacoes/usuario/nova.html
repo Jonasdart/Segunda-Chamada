@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <link rel="stylesheet" href="../../../assets/css/form-items.css">
     <link rel="stylesheet" href="../../../assets/css/base-items.css">
     <link rel="stylesheet" href="../../../assets/css/dropdown-w3c.css">
 </head>
@@ -28,7 +29,7 @@
                 <li>
                     <label>
                         <p>Aluno (Nome completo)</p>
-                        <input>
+                        <input required>
                     </label>
                 </li>
             </ul>
@@ -36,7 +37,7 @@
                 <li>
                     <label>
                         <p>Matéria</p>
-                        <input>
+                        <input required>
                     </label>
                 </li>
             </ul>
@@ -44,7 +45,23 @@
                 <li>
                     <label>
                         <p>Link atividade classroom</p>
-                        <input>
+                        <input required>
+                    </label>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <label>
+                        <p>Data da avaliação</p>
+                        <input required type="date">
+                    </label>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <label>
+                        <p>Documento comprobatório</p>
+                        <input type="file">
                     </label>
                 </li>
             </ul>
@@ -52,12 +69,12 @@
                 <li>
                     <label>
                         <p>Justificativa</p>
-                        <input class="input-long-text">
+                        <input required class="input-long-text">
                     </label>
                 </li>
             </ul>
-            <ul>
-                <li>
+            <ul class="full-width">
+                <li >
                     <label>
                         <button>Solicitar</button>
                     </label>
