@@ -3,25 +3,46 @@
     <head>
         <title>Login: Usuário</title>
         <link rel="stylesheet" href="../../assets/css/login_items.css">
+        <link rel="stylesheet" href="../../assets/css/form-items.css">
+        <link rel="stylesheet" href="../../assets/css/base-items.css">
     </head>
     <body>
         <header>
         </header>
-        <section class="login-form">
+        <h1 class="center-view">Login como usuário</h1>
+        <div class="form">
             <form action="../../index-usuario.html">
-                <div class="col">
-                    <label>Usuário
-                        <input>
-                    </label>
-                    <label>Senha
-                        <input>
-                    </label>
-                    <label>
-                        <button type="submit">Enviar</button>
-                    </label>
-                </div>
-                <a href="./login_coordenador.html">Entrar como coordenador</a>
+                <ul>
+                    <li>
+                        <label>
+                            <p>Usuário</p>
+                            <input required>
+                        </label>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <label>
+                            <p>Senha</p>
+                            <input required type="password">
+                        </label>
+                    </li>
+                </ul>
+                <ul class="full-width">
+                    <li>
+                        <label>
+                            <button type="submit">Enviar</button>
+                        </label>
+                    </li>
+                </ul>
+                <ul class="full-width">
+                    <li>
+                        <label>
+                            <a href="./login_coordenador.html">Entrar como Coordenador</a>
+                        </label>
+                    </li>
+                </ul>
             </form>
-        </section>
+        </div>
     </body>
 </html>

@@ -1,29 +1,51 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Login: Coordenador</title>
-        <link rel="stylesheet" href="../../assets/css/login_items.css">
-    </head>
 
-    <body>
-        <header>
-        </header>
-        <section class="login-form">
-            <form action="../../index-coordenador.html">
-                <div class="col">
-                    <label>Usuário
-                        <input>
+<head>
+    <title>Login: Coordenador</title>
+    <link rel="stylesheet" href="../../assets/css/login_items.css">
+    <link rel="stylesheet" href="../../assets/css/form-items.css">
+    <link rel="stylesheet" href="../../assets/css/base-items.css">
+</head>
+
+<body>
+    <header>
+    </header>
+    <h1 class="center-view">Login como coordenador</h1>
+    <div class="form">
+        <form action="../../index-coordenador.html">
+            <ul>
+                <li>
+                    <label>
+                        <p>Usuário</p>
+                        <input required>
                     </label>
-                    <label>Senha
-                        <input>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <label>
+                        <p>Senha</p>
+                        <input required type="password">
                     </label>
+                </li>
+            </ul>
+            <ul class="full-width">
+                <li>
                     <label>
                         <button type="submit">Enviar</button>
                     </label>
-                </div>
-                <a href="./login_usuario.html">Entrar como Usuario</a>
-            </form>
-        </section>
-    </body>
+                </li>
+            </ul>
+            <ul class="full-width">
+                <li>
+                    <label>
+                        <a href="./login_usuario.html">Entrar como Usuario</a>
+                    </label>
+                </li>
+            </ul>
+        </form>
+    </div>
+</body>
 
 </html>
